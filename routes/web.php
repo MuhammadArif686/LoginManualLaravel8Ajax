@@ -26,3 +26,7 @@ Route::post('/register', 'App\Http\Controllers\RegisterController@store')->name(
 Route::get('/login', 'App\Http\Controllers\LoginController@index')->name('login');
 Route::post('/login', 'App\Http\Controllers\LoginController@check_login')->name('login.check_login');
 
+
+Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard.index');
+Route::get('/logout', 'App\Http\Controllers\DashboardController@logout')->name('dashboard.logout');
+

@@ -87,7 +87,7 @@
                                         showConfirmButton: false
                                     })
                                     .then (function() {
-                                        window.location.href = "{{ route('register.index') }}";
+                                        window.location.href = "{{ route('dashboard.index') }}";
                                     });
                                 } else {
                                     console.log(response.success);
