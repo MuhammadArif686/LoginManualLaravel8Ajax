@@ -1,4 +1,4 @@
-# Simple Login dan Register Manual di Laravel 10 dan Ajax
+# Simple Login dan Register Manual di Laravel 8 dan Ajax
 
 - Clone this Repository
 - composer install
